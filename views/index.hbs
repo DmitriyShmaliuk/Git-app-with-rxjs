@@ -3,8 +3,9 @@
         <form method="POST" action="/">
             <div class="input-field">
                 <input class="validate" id="userName" type="text" name="name" placeholder="User name"
-                    value="{{userName}}">
+                    value="{{userName}}" minlength="3" autocomplete="off">
                 <label for="userName">User name</label>
+                <span class="helper-text" data-error="Requires a minimum of 3 letters"></span>
             </div>
         </form>
     </section>
