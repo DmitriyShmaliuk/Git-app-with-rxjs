@@ -8,7 +8,7 @@ Link: https://d-shmaliuk-github-app.herokuapp.com/
 ## Instruction to use
 1. Clone repo ```git@github.com:DmitriyShmaliuk/Github-application.git```
 2. npm ci.
-3. Use next script to start:
+3. Use next scripts to start:
     * npm run start - start server
     * npm run dev - start server with nodemon
 
