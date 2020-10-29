@@ -1,0 +1,26 @@
+{
+  "name": "git-app-with-rxjs",
+  "version": "0.0.1",
+  "description": "Node JS + Express + Rx.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitriyShmaliuk/Git-app-with-rxjs.git"
+  },
+  "author": "Dmitriy Shmaliuk <dmitriy.shmaliuk@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitriyShmaliuk/Git-app-with-rxjs/issues"
+  },
+  "homepage": "https://github.com/DmitriyShmaliuk/Git-app-with-rxjs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
