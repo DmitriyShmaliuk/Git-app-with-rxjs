@@ -1,4 +1,4 @@
-# Git-app-with-rxjs
+# Github-application
 Stack: Node JS + Express + Handlebars + Materialize
 ## Description
 Simple example how to use github api, create express server and handle routes, 
