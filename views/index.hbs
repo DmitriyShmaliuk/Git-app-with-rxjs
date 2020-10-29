@@ -1,0 +1,24 @@
+<article class="row">
+    <section class="col s12 m8 l6 offset-m2 offset-l3">
+        <form method="POST" action="/">
+            <div class="input-field">
+                <input class="validate" id="userName" type="text" name="name" placeholder="User name"
+                    value="{{userName}}">
+                <label for="userName">User name</label>
+            </div>
+        </form>
+    </section>
+</article>
+
+<article class="row">
+    {{#each users}}
+        <div class="col s12 m4 l3 xl2">
+            <div class="card" onclick="changeWindowLocation('{{profileLink}}')">
+                <div class="card-image">
+                    <img src="{{avatar}}">
+                    <span class="card-title">{{name}}</span>
+                </div>
+            </div>
+        </div>
+    {{/each}}
+</article>
