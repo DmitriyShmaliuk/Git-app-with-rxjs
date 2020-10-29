@@ -1,6 +1,6 @@
 {
   "name": "git-app-with-rxjs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node JS + Express + Handlebars",
   "main": "index.js",
   "scripts": {
@@ -19,9 +19,11 @@
   "homepage": "https://github.com/DmitriyShmaliuk/Git-app-with-rxjs#readme",
   "dependencies": {
     "axios": "^0.21.0",
+    "compression": "^1.7.4",
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
-    "handlebars": "^4.7.6"
+    "handlebars": "^4.7.6",
+    "helmet": "^4.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
